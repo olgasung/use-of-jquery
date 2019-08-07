@@ -1,0 +1,139 @@
+.content-scheduling{
+    margin-top: 47px;
+}
+.content-scheduling > .title{
+    margin: 0 0 18px 10px;
+    font-size: 16px;
+}
+.content-scheduling > .title .return{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 17px;
+    color: #00b3e3;
+}
+.content-scheduling .sche{
+    float: left;
+}
+.content-scheduling .sche .sche-left{
+    height: 323px;
+    width: 35px;
+    border: 1px solid #dcdddd;
+    float: left;
+}
+.content-scheduling .sche .sche-left .prev{
+    height: 44px;
+    width: 35px;
+    background: url(../img/icon-scheduling-left.jpg) no-repeat center center;
+    cursor: pointer;
+}
+.content-scheduling .sche .sche-left .status{
+    height: 93px;
+    font-size: 13px;
+    line-height: 93px;
+    text-align: center;
+    background: #f2f8ff;
+}
+
+.content-scheduling .sche .sche-mid{
+    width: 656px;
+    height: 323px;
+    border-top: 1px solid #dcdddd;
+    border-bottom: 1px solid #dcdddd;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.content-scheduling .sche .sche-mid .sche-mid-box-wrap{
+    width: 9999px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+.content-scheduling .sche .sche-right{
+    height: 323px;
+    width: 36px;
+    border: 1px solid #dcdddd;
+    float: left;
+    background: #f2f8ff;
+}
+.content-scheduling .sche .sche-right .after{
+    height: 44px;
+    width: 36px;
+    background: url(../img/icon-scheduling-right.jpg) no-repeat center center;
+    cursor: pointer;
+}
+
+.content-scheduling .dpt-rules{
+    width: 258px;
+    height:301px;
+    border: 1px solid #dcdddd;
+    border-left: none;
+    float: right;
+    padding: 22px 0px 0px 10px;
+    font-size: 11px;
+    line-height: 20px;
+    overflow: auto;
+}
+.content-scheduling .dpt-rules .cap{
+    color: #555555;
+    font-size: 12px;
+}
+.content-scheduling .dpt-rules .title{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.content-scheduling .dpt-rules p{
+    color: #888888;
+}
+
+
+.content-scheduling .select{
+    height: 64px;
+    width: 998px;
+    float: left;
+    border: 1px solid #dcdddd;
+    border-top: none;
+}
+.content-scheduling .select p{
+    height: 20px;
+    width: 188px;
+    margin: 22px auto;
+    padding-left: 28px;
+    background: url(../img/icon-info.jpg) no-repeat center left;
+    color: #9f9f9f;
+}
+
+
+
+/*排班表*/
+.sche-mid-box-wrap .schedule-box-item{
+    height: 323px;
+    width: 93px;
+    float: left;
+    border-right: 1px solid #dcdddd;
+}
+
+.sche-mid-box-wrap .schedule-box-item .date{
+    width: 93px;
+    height: 44px;
+    color: #868686;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-bottom: 1px solid #dcdddd;
+}
+.sche-mid-box-wrap .schedule-box-item .status{
+    height: 92px;
+    font-size: 12px;
+    line-height: 92px;
+    text-align: center;
+    border-bottom: 1px solid #dcdddd;
+}
+
+.sche-mid-box-wrap .schedule-box-item .status_fall{
+    color: #4ab4ed;
+    background: #e0eefd;
+}

@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+}
+select,input{
+	border: none;
+	outline: none;
+}
+table{
+    border: 0;
+    border-spacing:0;
+}
+/* top样式 */
+.top{
+    line-height: 30px;
+    font-size: 13px;
+    color: #868686;
+}
+.top .call{
+    float: left;
+    padding-left: 20px;
+    background: url(../img/icon-call.png) no-repeat center left;
+}
+.top .welcome{
+    float: right;
+}
+.top a{
+    color: #2da5e1;
+    padding-left: 10px;
+}
+
+
+/*hearder样式*/
+.header .logo{
+    width: 402px;
+    height: 74px;
+    padding: 9px 0;
+    display: inline-block;
+}
+.header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.header .search{
+    width: 326px;
+    height: 38px;
+    position: absolute;
+    right: 0px;
+    top: 29px;
+}
+
+/*nav 样式*/
+.nav .link{
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    min-width: 80px;
+    text-align: center;
+}
+.nav .link_focus{
+    color: #fff;
+    background: #1fa4f0;
+    padding: 0 20px;
+}
+.nav a:hover{
+	color: #d7f3ff;
+}
+
+/*content-hospital*/
+.caption{
+    font-size: 12px;
+    padding: 19px 26px;
+    position: relative;
+}
+.caption::after{
+    content: "";
+    display: block;
+    width: 950px;
+    border-bottom:1px solid #dcdddd;
+    position: absolute;
+    bottom: 0px;
+    left: 26px;
+}
+.caption .title{
+    display: inline-block;
+    padding-right: 13px;
+    font-size: 16px;
+}
+.caption .span_focus{
+    color: #f29600;
+}
+.caption .label{
+    
+    float: right;
+}
+.caption .label label{
+    color: #00f;
+    margin-left: 14px;
+}
+.con-info{
+    padding: 12px 26px 19px 26px;
+}
+.con-info .con-img{
+    width: 200px;
+    float: left;
+}
+.con-info .con-text{
+    width: 416px;
+    float: left;
+    padding: 15px 24px 0 30px;
+    font-size: 12px;
+    color: #888888;
+}
+.con-info .con-text p{
+    margin: 9px 0px;
+}
+.con-info .con-text .place{
+    background: url(../img/icon-web.png) no-repeat 0px 0px;
+    padding-left: 28px;
+}
+.con-info .con-text .net{
+    background: url(../img/icon-web.png) no-repeat 0px -21px;
+    padding-left: 28px;
+}
+.con-info .con-text .query{
+    background: url(../img/icon-web.png) no-repeat 0px -44px;
+    padding-left: 28px;
+}
+.con-info .con-text .posi{
+    background: url(../img/icon-web.png) no-repeat 0px -62px;
+    padding-left: 28px;
+    line-height: 20px;
+    height: 21px;
+}
+.con-info .con-map{
+    float: left;
+    height: 165px;
+    width: 250px;
+    background: url(../img/map-1.png) no-repeat;
+}
+
+/*content-department*/
+.nav-dpt{
+    height: 30px;
+    border-bottom: 2px solid #60bff2;
+}
+
+.nav-dpt .link{
+    color: #00b3ec;
+    display: inline-block;
+    height: 30px;
+    width: 110px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 8px;
+}
+.nav-dpt .link_focus{
+    background: #60bff2;
+    color: #fff;
+}
+/*选项卡1*/
+.dtp-con{
+    margin-top: 20px;
+}
+.dtp-con .dpt-table{
+    width: 706px;
+    float: left;
+    
+}
+.dtp-con .dpt-table .title{
+    font-size: 14px;
+    padding: 15px 30px;
+    background: #f4f6fa;
+}
+.dtp-con .dpt-table table tr td{
+    border: 1px solid #f4f6fa;
+}
+.dtp-con .dpt-table table tr td .link{
+    display: inline-block;
+    width: 116px;
+    height: 30px;
+    line-height: 30px;
+    font-size:14px; 
+    color: #4c4948;
+    text-align: center;
+    font-weight: bold;
+}
+.dtp-con .dpt-table table tr .order-left-title{
+    background: #f2fbff;
+    width: 145px;
+    color: #888888;
+    vertical-align: text-top;
+    text-align: center;
+    padding-top:10px; 
+}
+.dtp-con .dpt-rules{
+    width: 272px;
+    height:282px;
+    border: 1px solid #f4f6fa;
+    float: right;
+}
+.dtp-con .dpt-rules .title{
+    font-size: 14px;
+    padding: 15px 0 15px 11px;
+    background: #f4f6fa;
+
+}
+.dtp-con .dpt-rules .title span{
+    color: #00b3ea;
+    font-size: 12px;
+}
+.dtp-con .dpt-rules .dpt-rules-content{
+    height: 222px;
+    padding: 12px 10px 0px 10px;
+    font-size: 12px;
+    line-height: 24px;
+    overflow: auto;
+}
+.dtp-con .dpt-rules .dpt-rules-content p{
+    color: #888888;
+}
+.dtp-con .dpt-rules .dpt-rules-content .indent{
+    text-indent: 64px;
+}
+.dtp-con .dpt-rules .dpt-rules-content span{
+    color: #555555;
+}
+/*选项卡2*/
+.dpt-info{
+    display: none;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    width: 940px;
+    line-height: 26px;
+    font-size: 13px;
+    color: #666;
+}
+.dpt-info p{
+    margin-bottom: 10px;
+    text-indent: 2em;
+    text-align: justify;
+}
+/*选项卡3*/
+.dpt-reservation{
+    display: none;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    width: 940px;
+    color: #4c4948;
+}
+.dpt-reservation h3{
+    text-align: center;
+}
+.dpt-reservation p{
+    font-size: 13px;
+    line-height: 26px;
+}
+/*选项卡4*/
+.dpt-stop{
+    display: none;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    width: 940px;
+    color: #4c4948;
+}
+.dpt-stop h3{
+    text-align: center;
+}
+.dpt-stop table{
+    margin-top: 20px;
+    width: 938px;
+    border-top: 1px solid #888888;
+    border-left: 1px solid #888888;
+}
+.dpt-stop table tr td{
+    border-bottom: 1px solid #888888;
+    border-right: 1px solid #888888;
+    font-size: 13px;
+    text-align: center;
+    height: 26px;
+}
+/*选项卡5*/
+.dpt-cancel{
+    display: none;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    width: 940px;
+    color: #4c4948;
+    min-height: 300px;
+}
+.dpt-cancel p{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 160px;
+    position: relative;
+}
+.dpt-cancel p::after,
+.dpt-cancel p::before{
+    content: " ";
+    display: block;
+    width: 1000px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+}
+.dpt-cancel p::after{
+    top: 270px;
+}
+.dpt-cancel p::before{
+    top: 80px;
+}
+.dpt-cancel p input{
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 26px;
+}
+.dpt-cancel p button{
+    height: 28px;
+    width: 100px;
+    background: #00b3ec;
+    border:none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/*footer*/
+.footer{
+	line-height: 70px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
